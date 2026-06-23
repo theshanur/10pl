@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import About from "@/components/About";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Stats from "@/components/stats";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Stats/>
         {/* <Features />
         <About />
         <CTA /> */}
