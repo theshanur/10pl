@@ -17,6 +17,7 @@ export default function Stats() {
       value: "16",
       label: "TEAMS",
     },
+
     {
       icon: <Zap className="size-9" strokeWidth={1} />,
       value: "60",
