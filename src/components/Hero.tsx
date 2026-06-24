@@ -1,4 +1,4 @@
-import { Handshake } from "lucide-react";
+import { CirclePlay, Handshake, Network } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Hero() {
@@ -22,7 +22,7 @@ export default function Hero() {
             href="#contact"
           >
             <Button className={'h-12 min-w-[280px] w-full uppercase'}>
-              <Handshake />
+              <Handshake className="mr-2"/>
               Explore Sponsorship
             </Button>
           </a>
@@ -30,15 +30,14 @@ export default function Hero() {
             href="#contact"
           >
             <Button className={'h-12 min-w-[280px] w-full'} variant={'outline'}>
-              <Handshake />
-              TEAM OWNERSHIP
+              <Network className="mr-2"/>  TEAM OWNERSHIP
             </Button>
           </a>
           <a
             href="#contact"
           >
             <Button className={'h-12 min-w-[280px] w-full'} variant={'outline'}>
-              <Handshake />
+              <Handshake className="mr-2"/>
               REGISTER INTEREST
             </Button>
           </a>
@@ -46,8 +45,8 @@ export default function Hero() {
             href="#contact"
           >
             <Button className={'h-12 min-w-[280px] w-full'} variant={'outline'}>
-              <Handshake />
-              WATCH SEASON 5
+            
+              <CirclePlay className="mr-2" />   WATCH SEASON 5
             </Button>
           </a>
         </div>

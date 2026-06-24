@@ -4,13 +4,13 @@ import { CalendarDays, Smartphone, Trophy, UserPlus, Users, UserStar, Zap } from
 
 export default function Stats() {
   const stats = [
-    { icon: <Users className="size-9" />, value: '16', label: 'TEAMS' },
-    { icon: <Zap className="size-9"/>, value: '60', label: 'MATCHES' },
-    { icon: <UserStar className="size-9"/>, value: '240', label: 'PLAYERS' },
-    { icon: <CalendarDays className="size-9"/>, value: '08', label: 'DAYS' },
-    { icon: <UserPlus className="size-9"/>, value: '5,000-7,000', label: 'LIVE AUDIENCE' },
-    { icon: <Smartphone className="size-9"/>, value: '30M+', label: 'DIGITAL REACH' },
-    { icon: <Trophy className="size-9"/>, value: 'AED 1M', label: 'PRIZE POOL' },
+    { icon: <Users className="size-9" strokeWidth={1} />, value: '16', label: 'TEAMS' },
+    { icon: <Zap className="size-9" strokeWidth={1}/>, value: '60', label: 'MATCHES' },
+    { icon: <UserStar className="size-9" strokeWidth={1}/>, value: '240', label: 'PLAYERS' },
+    { icon: <CalendarDays className="size-9" strokeWidth={1}/>, value: '08', label: 'DAYS' },
+    { icon: <UserPlus className="size-9" strokeWidth={1}/>, value: '5,000-7,000', label: 'LIVE AUDIENCE' },
+    { icon: <Smartphone className="size-9" strokeWidth={1}/>, value: '30M+', label: 'DIGITAL REACH' },
+    { icon: <Trophy className="size-9" strokeWidth={1}/>, value: 'AED 1M', label: 'PRIZE POOL' },
   ]
 
   return (
