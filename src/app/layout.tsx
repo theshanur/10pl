@@ -20,8 +20,7 @@ const anton = Anton({
 
 export const metadata: Metadata = {
   title: "10PL Season 5 — The Ultimate Cricket League",
-  description:
-    "Join the most exciting T10 cricket league. World-class players, thrilling matches, and unforgettable moments await.",
+  
   keywords: ["10pl", "cricket", "T10", "league", "season 5"],
 };
 
