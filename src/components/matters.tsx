@@ -30,14 +30,17 @@ export default function Matters() {
             WHY 10PL MATTERS
           </h2>
         </div>
-        <div className="max-w-6xl mx-auto w-full px-6 grid grid-cols-2">
+        <div className="max-w-6xl mx-auto w-full px-6 grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-5">
             {matters.map((item, inx) => {
               return (
                 <div
                   key={inx}
-                  className="border border-gold space-y-3 p-6 rounded-2xl"
+                  className="relative border border-gold hover:border-gold-dark space-y-3 p-6 rounded-2xl hover:bg-navy-light duration-300 ease-in-out overflow-hidden group"
                 >
+                  <div className="pointer-events-none absolute inset-0">
+                    <div className="group-hover:scale-125 duration-300 ease-in-out absolute top-1/2 left-0 h-full w-4 -translate-y-1/2 bg-[url('/golden_lighting_2.png')] bg-contain bg-no-repeat bg-center" />
+                  </div>
                   <h2 className="">{item.title}</h2>
                   <p>{item.desc}</p>
                 </div>
